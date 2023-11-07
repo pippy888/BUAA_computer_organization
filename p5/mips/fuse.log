@@ -1,0 +1,54 @@
+Running: E:\ISEapp\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o D:/verilogcode/p5/mips/test_mips_isim_beh.exe -prj D:/verilogcode/p5/mips/test_mips_beh.prj test_mips work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 16
+Turning on mult-threading, number of parallel sub-compilation jobs: 32 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/verilogcode/p5/mips/../stall_forward/stall_forward.v" into library work
+Analyzing Verilog file "D:/verilogcode/p5/mips/../PC/PC.v" into library work
+Analyzing Verilog file "D:/verilogcode/p5/mips/../NPC/NPC.v" into library work
+Analyzing Verilog file "D:/verilogcode/p5/mips/../MUX/MUX.v" into library work
+Analyzing Verilog file "D:/verilogcode/p5/mips/../MEM_WB/MEM_WB.v" into library work
+Analyzing Verilog file "D:/verilogcode/p5/mips/../IM/IM.v" into library work
+Analyzing Verilog file "D:/verilogcode/p5/mips/../IF_ID/IF_ID.v" into library work
+Analyzing Verilog file "D:/verilogcode/p5/mips/../ID_EX/ID_EX.v" into library work
+Analyzing Verilog file "D:/verilogcode/p5/mips/../GRF/GRF.v" into library work
+Analyzing Verilog file "D:/verilogcode/p5/mips/../EX_MEM/EX_MEM.v" into library work
+Analyzing Verilog file "D:/verilogcode/p5/mips/../EXT/EXT.v" into library work
+Analyzing Verilog file "D:/verilogcode/p5/mips/../DM/DM.v" into library work
+Analyzing Verilog file "D:/verilogcode/p5/mips/../CU/CU.v" into library work
+Analyzing Verilog file "D:/verilogcode/p5/mips/../CMP/CMP.v" into library work
+Analyzing Verilog file "D:/verilogcode/p5/mips/../ALU/ALU.v" into library work
+Analyzing Verilog file "D:/verilogcode/p5/mips/mips.v" into library work
+Analyzing Verilog file "D:/verilogcode/p5/mips/test_mips.v" into library work
+Analyzing Verilog file "E:/ISEapp/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module PC
+Compiling module IM
+Compiling module IF_ID
+Compiling module CU
+Compiling module stall_forward
+Compiling module MUX_addr
+Compiling module GRF
+Compiling module MUX_Forward_D_E
+Compiling module EXT
+Compiling module NPC
+Compiling module MUX_PC
+Compiling module CMP
+Compiling module ID_EX
+Compiling module MUX_ALU
+Compiling module ALU
+Compiling module EX_MEM
+Compiling module MUX_Forward_M
+Compiling module DM
+Compiling module MEM_WB
+Compiling module MUX_Wd
+Compiling module mips
+Compiling module test_mips
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: 系统找不到指定的路径。, "isim\test_mips_isim_beh.exe.sim\libPortability.dll".
+Compiled 23 Verilog Units
+Built simulation executable D:/verilogcode/p5/mips/test_mips_isim_beh.exe
+Fuse Memory Usage: 31744 KB
+Fuse CPU Usage: 437 ms

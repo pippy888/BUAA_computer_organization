@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/verilogcode/p4/bitadder_safer/test_bitadder_safer_isim_beh.exe" -prj "D:/verilogcode/p4/bitadder_safer/test_bitadder_safer_beh.prj" "work.test_bitadder_safer" "work.glbl" 

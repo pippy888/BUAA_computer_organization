@@ -1,0 +1,28 @@
+Command line:
+   p1_hw1_2tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  65033
+
+Wed Oct 05 18:08:50 2022
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 5158.5 Meg
+
+ Total Signals          : 18
+ Total Nets             : 112
+ Total Signal Drivers   : 9
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 12
+ Total Traceable Variables  : 22
+ Total Scalar Nets and Variables : 291
+
+ Total Simulation Time: 0.046875 sec
+
+ Current Memory Usage: 4686.64 Meg
+
+Wed Oct 05 18:13:17 2022
+

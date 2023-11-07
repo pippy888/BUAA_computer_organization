@@ -1,0 +1,3 @@
+verilog work "lowbit.v"
+verilog work "test_lowbit.v"
+verilog work "E:/ISEapp/14.7/ISE_DS/ISE//verilog/src/glbl.v"

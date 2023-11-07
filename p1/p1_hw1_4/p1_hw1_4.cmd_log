@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/verilogcode/p1/p1_hw1_4/p1_hw1_4.xst" -ofn "D:/verilogcode/p1/p1_hw1_4/p1_hw1_4.syr" 
+xst -intstyle ise -ifn "D:/verilogcode/p1/p1_hw1_4/p1_hw1_4.xst" -ofn "D:/verilogcode/p1/p1_hw1_4/p1_hw1_4.syr" 

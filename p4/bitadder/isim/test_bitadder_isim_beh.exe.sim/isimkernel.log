@@ -1,0 +1,28 @@
+Command line:
+   test_bitadder_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  60785
+
+Wed Nov 09 00:23:22 2022
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 5158.5 Meg
+
+ Total Signals          : 16
+ Total Nets             : 51
+ Total Signal Drivers   : 7
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 10
+ Total Traceable Variables  : 21
+ Total Scalar Nets and Variables : 201
+
+ Total Simulation Time: 0.109375 sec
+
+ Current Memory Usage: 5158.5 Meg
+
+Wed Nov 09 00:23:35 2022
+

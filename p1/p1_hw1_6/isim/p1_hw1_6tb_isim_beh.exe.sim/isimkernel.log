@@ -1,0 +1,10 @@
+Command line:
+   p1_hw1_6tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50788
+
+Sat Oct 08 11:22:38 2022
+
+
+ Elaboration Time: 0.109375 sec

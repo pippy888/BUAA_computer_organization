@@ -1,0 +1,103 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to D:/verilogcode/p6/mips/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Parameter xsthdpdir set to D:/verilogcode/p6/mips/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Reading design: mips.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "D:\verilogcode\p6\StoreMemData\Store_MemData.v" into library work
+Parsing module <Store_MemData>.
+Analyzing Verilog file "D:\verilogcode\p6\stall_forward\stall_forward.v" into library work
+Parsing module <stall_forward>.
+Analyzing Verilog file "D:\verilogcode\p6\PC\PC.v" into library work
+Parsing module <PC>.
+Analyzing Verilog file "D:\verilogcode\p6\NPC\NPC.v" into library work
+Parsing module <NPC>.
+Analyzing Verilog file "D:\verilogcode\p6\MUX\MUX.v" into library work
+Parsing module <MUX_addr>.
+Parsing module <MUX_ALU>.
+Parsing module <MUX_Wd>.
+Parsing module <MUX_Forward_D_E>.
+Parsing module <MUX_Forward_M>.
+Parsing module <MUX_PC>.
+Analyzing Verilog file "D:\verilogcode\p6\MEM_WB\MEM_WB.v" into library work
+Parsing module <MEM_WB>.
+Analyzing Verilog file "D:\verilogcode\p6\MDU\MDU.v" into library work
+Parsing module <MDU>.
+Analyzing Verilog file "D:\verilogcode\p6\LoadMemData\LoadMemData.v" into library work
+Parsing module <LoadMemData>.
+Analyzing Verilog file "D:\verilogcode\p6\IF_ID\IF_ID.v" into library work
+Parsing module <IF_ID>.
+Analyzing Verilog file "D:\verilogcode\p6\ID_EX\ID_EX.v" into library work
+Parsing module <ID_EX>.
+Analyzing Verilog file "D:\verilogcode\p6\GRF\GRF.v" into library work
+Parsing module <GRF>.
+Analyzing Verilog file "D:\verilogcode\p6\EX_MEM\EX_MEM.v" into library work
+Parsing module <EX_MEM>.
+Analyzing Verilog file "D:\verilogcode\p6\EXT\EXT.v" into library work
+Parsing module <EXT>.
+Analyzing Verilog file "D:\verilogcode\p6\DMop\DMop.v" into library work
+Parsing module <DMop>.
+Analyzing Verilog file "D:\verilogcode\p6\CU\CU.v" into library work
+WARNING:HDLCompiler:572 - "D:\verilogcode\p6\CU\CU.v" Line 24: Macro <mult> is redefined.
+WARNING:HDLCompiler:572 - "D:\verilogcode\p6\CU\CU.v" Line 25: Macro <multu> is redefined.
+WARNING:HDLCompiler:572 - "D:\verilogcode\p6\CU\CU.v" Line 26: Macro <div> is redefined.
+WARNING:HDLCompiler:572 - "D:\verilogcode\p6\CU\CU.v" Line 27: Macro <divu> is redefined.
+WARNING:HDLCompiler:572 - "D:\verilogcode\p6\CU\CU.v" Line 28: Macro <mfhi> is redefined.
+WARNING:HDLCompiler:572 - "D:\verilogcode\p6\CU\CU.v" Line 29: Macro <mflo> is redefined.
+WARNING:HDLCompiler:572 - "D:\verilogcode\p6\CU\CU.v" Line 30: Macro <mthi> is redefined.
+WARNING:HDLCompiler:572 - "D:\verilogcode\p6\CU\CU.v" Line 31: Macro <mtlo> is redefined.
+Parsing module <CU>.
+Analyzing Verilog file "D:\verilogcode\p6\CMP\CMP.v" into library work
+Parsing module <CMP>.
+Analyzing Verilog file "D:\verilogcode\p6\ALU\ALU.v" into library work
+Parsing module <ALU>.
+Analyzing Verilog file "D:\verilogcode\p6\mips\mips.v" into library work
+Parsing module <mips>.
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 2.30 secs
+ 
+--> 
+
+Total memory usage is 4447552 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    8 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,3 @@
+verilog work "bitadder_safer.v"
+verilog work "test_bitadder_safer.v"
+verilog work "E:/ISEapp/14.7/ISE_DS/ISE//verilog/src/glbl.v"

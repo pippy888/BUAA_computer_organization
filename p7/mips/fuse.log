@@ -1,0 +1,62 @@
+Running: E:\ISEapp\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o D:/verilogcode/p7/mips/mips_isim_beh.exe -prj D:/verilogcode/p7/mips/mips_beh.prj work.mips work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 16
+Turning on mult-threading, number of parallel sub-compilation jobs: 32 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/verilogcode/p7/mips/../TC/TC.v" into library work
+Analyzing Verilog file "D:/verilogcode/p7/mips/../StoreMemData/Store_MemData.v" into library work
+Analyzing Verilog file "D:/verilogcode/p7/mips/../stall_forward/stall_forward.v" into library work
+Analyzing Verilog file "D:/verilogcode/p7/mips/../PC/PC.v" into library work
+Analyzing Verilog file "D:/verilogcode/p7/mips/../NPC/NPC.v" into library work
+Analyzing Verilog file "D:/verilogcode/p7/mips/../MUX/MUX.v" into library work
+Analyzing Verilog file "D:/verilogcode/p7/mips/../MEM_WB/MEM_WB.v" into library work
+Analyzing Verilog file "D:/verilogcode/p7/mips/../MDU/MDU.v" into library work
+Analyzing Verilog file "D:/verilogcode/p7/mips/../LoadMemData/LoadMemData.v" into library work
+Analyzing Verilog file "D:/verilogcode/p7/mips/../IF_ID/IF_ID.v" into library work
+Analyzing Verilog file "D:/verilogcode/p7/mips/../ID_EX/ID_EX.v" into library work
+Analyzing Verilog file "D:/verilogcode/p7/mips/../GRF/GRF.v" into library work
+Analyzing Verilog file "D:/verilogcode/p7/mips/../EX_MEM/EX_MEM.v" into library work
+Analyzing Verilog file "D:/verilogcode/p7/mips/../EXT/EXT.v" into library work
+Analyzing Verilog file "D:/verilogcode/p7/mips/../DMop/DMop.v" into library work
+Analyzing Verilog file "D:/verilogcode/p7/mips/../CU/CU.v" into library work
+Analyzing Verilog file "D:/verilogcode/p7/mips/../CP0/CP0.v" into library work
+Analyzing Verilog file "D:/verilogcode/p7/mips/../CMP/CMP.v" into library work
+Analyzing Verilog file "D:/verilogcode/p7/mips/../Bridge/Bridge.v" into library work
+Analyzing Verilog file "D:/verilogcode/p7/mips/../ALU/ALU.v" into library work
+Analyzing Verilog file "D:/verilogcode/p7/mips/mips.v" into library work
+Analyzing Verilog file "E:/ISEapp/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module PC
+Compiling module IF_ID
+Compiling module CU
+Compiling module stall_forward
+Compiling module MUX_addr
+Compiling module GRF
+Compiling module MUX_Forward_D_E
+Compiling module EXT
+Compiling module NPC
+Compiling module MUX_PC
+Compiling module CMP
+Compiling module ID_EX
+Compiling module MUX_ALU
+Compiling module MDU
+Compiling module ALU
+Compiling module EX_MEM
+Compiling module MUX_Forward_M
+Compiling module DMop
+Compiling module Store_MemData
+Compiling module CP0
+Compiling module LoadMemData
+Compiling module MEM_WB
+Compiling module MUX_Wd
+Compiling module Bridge
+Compiling module TC
+Compiling module mips
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 27 Verilog Units
+Built simulation executable D:/verilogcode/p7/mips/mips_isim_beh.exe
+Fuse Memory Usage: 32896 KB
+Fuse CPU Usage: 671 ms
